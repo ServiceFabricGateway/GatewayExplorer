@@ -1,0 +1,39 @@
+@page
+
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <script>document.documentElement.className = 'js';</script>
+
+    <script src="libs/requirejs/require.js" data-main="main"></script>
+
+     <script>
+
+
+
+
+        require.config({
+            baseUrl: "../", 
+            paths: {
+                "main": "src/main",
+            },
+            config: {
+                "main": {"rootModule":"ServiceFabricGateway"},
+                "ServiceFabricGateway/index": { 
+                    oidc : {}, 
+                    applicationInsights :{
+                        "instrumentationKey": "00000000-0000-0000-0000-000000000000"
+                    } 
+                },
+                "ServiceFabricGateway/endpoints": {}
+            }
+
+        });
+
+
+    </script>
+</head>
+<body class="loading si-theme-pink si-mode-light">
+    <!-- koLayout : $data-->
+</body>
+</html>

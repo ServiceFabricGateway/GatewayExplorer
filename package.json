@@ -1,0 +1,32 @@
+{
+    "version": "1.0.0",
+    "name": "si-servicefabric-gateway",
+    "devDependencies": {
+        "si-appbuilder": "0.0.3",
+        "@types/requirejs": "2.1.31",
+        "@types/nprogress": "0.0.29",
+        "@types/knockout": "3.4.53",
+        "si-kolayout": "1.0.0",
+        "si-appbuilder-application-insights-middleware": "0.0.3",
+        "si-appbuilder-oidcmiddleware": "0.0.9",
+        "si-dependency-injection": "1.0.0",
+        "si-decorators": "1.0.0",
+        "si-kolayout-jsx": "1.0.0",
+        "si-splitlayout": "1.0.2",
+        "typescript": "2.8.3",
+        "oidc-client": "1.4.1",
+        "grunt": "1.0.2",
+        "grunt-contrib-copy": "1.0.0",
+        "grunt-contrib-less": "1.4.1",
+        "grunt-contrib-requirejs": "1.0.0",
+        "grunt-npmcopy": "0.1.0",
+        "less-plugin-autoprefix": "1.5.1",
+        "less-plugin-clean-css": "1.5.1",
+        "requirejs": "2.3.5",
+        "nprogress": "0.2.0",
+        "requirejs-text": "2.0.15",
+        "require-css": "0.1.10",
+        "strip-json-comments": "2.0.1",
+        "animejs": "2.2.0"
+    }
+}
