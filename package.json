@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "name": "si-servicefabric-gateway",
+    "name": "sf-gateway-explorer",
     "devDependencies": {
         "si-appbuilder": "0.0.3",
         "@types/requirejs": "2.1.31",
